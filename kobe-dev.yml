@@ -1,3 +1,5 @@
+appname: kobe
+
 server:
   port: 8763
     
