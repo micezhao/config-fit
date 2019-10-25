@@ -7,7 +7,7 @@ spring:
    application:
       name: kobe
    datasource:
-      driverClassName: com.mysql.jdbc.Driver
+      driverClassName: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://118.190.53.214:3306/demo?useUnicode=true&characterEncoding=utf-8
       username: root
       password: 891122
