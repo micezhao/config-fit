@@ -26,6 +26,7 @@ spring:
       dbName: fit-eat
       username: zcmac
       password: 891122
+      url: ${username}:${password}@${host}:${port}/${dbName}
       
 mybatis:
    mapperLocations: classpath*:mybatis/mapper/*.xml
