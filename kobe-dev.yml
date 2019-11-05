@@ -27,7 +27,8 @@ spring:
       username: zcmac
       password: 891122
       url: ${spring.mongo.username}:${spring.mongo.password}@${spring.mongo.host}:${spring.mongo.port}/${spring.mongo.dbName}
-      
+   session:
+      store-type: redis
 mybatis:
    mapperLocations: classpath*:mybatis/mapper/*.xml
        
