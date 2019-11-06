@@ -2,9 +2,6 @@ appname: kobe
 
 server:
   port: 8763
-  servlet: 
-      session: 
-         timeout: 180 #seconds is used. 
     
 spring:
    application:
@@ -32,9 +29,10 @@ spring:
       url: ${spring.mongo.username}:${spring.mongo.password}@${spring.mongo.host}:${spring.mongo.port}/${spring.mongo.dbName}
    session:
       store-type: redis
+      timeout: 360 #seconds in used
       redis:
          flush-mode: on-save  # Sessions flush mode.
-         namespace: kobe:userinfo # Namespace for keys used to store sessions.
+         namespace: kobe # Namespace for keys used to store sessions.
          database: 5
 
 
