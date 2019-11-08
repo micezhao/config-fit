@@ -44,8 +44,8 @@ redis:
          max-wait: 10000
          max-idle: 4
          min-idle: 0
-         timeout: 10000
-         shutdown-timeout: 400
+      timeout: 10000
+      shutdown-timeout: 400
 
 mybatis:
    mapperLocations: classpath*:mybatis/mapper/*.xml
