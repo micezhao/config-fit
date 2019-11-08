@@ -35,6 +35,17 @@ spring:
          namespace: kobe # Namespace for keys used to store sessions.
          database: 5
 
+redis:
+   region:
+      database: 5
+   lettuce:
+      pool:
+         max-active: 8
+         max-wait: 10000
+         max-idle: 4
+         min-idle: 0
+         timeout: 10000
+         shutdown-timeout: 400
 
 mybatis:
    mapperLocations: classpath*:mybatis/mapper/*.xml
