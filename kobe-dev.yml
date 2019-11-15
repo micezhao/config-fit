@@ -44,7 +44,7 @@ redis:
          max-wait: 10000
          max-idle: 4
          min-idle: 0
-      timeout: 10000
+      timeout: 100000
       shutdown-timeout: 400
 
 mybatis:
