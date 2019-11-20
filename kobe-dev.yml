@@ -2,8 +2,11 @@ appname: kobe
 
 server:
   port: 8763
-    
+  
 spring:
+   http:
+      encoding:
+         charset: UTF-8
    application:
       name: kobe
    datasource:
