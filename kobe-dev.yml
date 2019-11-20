@@ -29,7 +29,7 @@ spring:
       url: ${spring.mongo.username}:${spring.mongo.password}@${spring.mongo.host}:${spring.mongo.port}/${spring.mongo.dbName}
    session:
       store-type: redis
-      timeout: 360 #seconds in used
+      timeout: 3600 #seconds in used
       redis:
          flush-mode: on-save  # Sessions flush mode.
          namespace: kobe # Namespace for keys used to store sessions.
