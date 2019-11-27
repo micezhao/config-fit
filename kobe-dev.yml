@@ -12,7 +12,7 @@ spring:
       name: kobe
    datasource:
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
       username: root
       password: 891122
    rabbitmq:
