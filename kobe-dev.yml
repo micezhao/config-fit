@@ -4,6 +4,9 @@ server:
   port: 8763
 
 spring:
+   jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
    http:
       encoding:
          enabled: true
@@ -12,7 +15,7 @@ spring:
       name: kobe
    datasource:
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8&useTimezone=true&serverTimezone=GMT%2B8
+      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8
       username: root
       password: 891122
    rabbitmq:
