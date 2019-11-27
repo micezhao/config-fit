@@ -11,8 +11,9 @@ spring:
    application:
       name: kobe
    datasource:
-      driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8
+      #driverClassName: com.mysql.jdbc.Driver
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://118.190.53.214:3386/fa_kobe?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
       username: root
       password: 891122
    rabbitmq:
