@@ -55,8 +55,8 @@ mybatis:
    mapperLocations: classpath*:mybatis/mapper/*.xml
 credential:
    wechat:
-      appId: 9100aa
-      appSecret: 9100bb
+      appId: wx492bfcf10245c5d1
+      appSecret: d9bb70c779a7cabd6ec7d11c5034e239
       urlPattern: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
       errtag: errcode
        
