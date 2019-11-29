@@ -4,6 +4,9 @@ server:
   port: 8763
 
 spring:
+   jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
    http:
       encoding:
          enabled: true
