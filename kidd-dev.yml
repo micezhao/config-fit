@@ -29,6 +29,7 @@ spring:
 
 zuul:
    routes:
+      ignoredPatterns: /login/**
       kobe-url:
          path: /kobe/**
          url: http://localhost:8764/ # 开发环境，指向本级服务
