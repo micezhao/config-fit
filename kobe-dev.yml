@@ -1,7 +1,7 @@
 appname: kobe
 
 server:
-  port: 8763
+  port: 8764
 
 spring:
    http:
