@@ -32,5 +32,5 @@ zuul:
       kobe-url:
          path: /kobe/**
          url: http://localhost:8764/ # 开发环境，指向本级服务
-         # serviceId: kobe
+         ## serviceId: kobe
    
