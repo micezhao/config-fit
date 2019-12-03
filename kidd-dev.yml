@@ -30,7 +30,7 @@ spring:
 zuul:
    routes:
       kobe-url:
-         path: /kobe/*
+         path: /kobe/*,/login/*
          url: http://localhost:8764/ # 开发环境，指向本级服务
          ## serviceId: kobe
    
