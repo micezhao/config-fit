@@ -29,7 +29,7 @@ spring:
 
 zuul:
    routes:
-      kobe:
-         path: /kobe
+      kobe-url:
+         path: /kobe/*
          serviceId: kobe
    
