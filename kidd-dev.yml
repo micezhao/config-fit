@@ -35,4 +35,4 @@ zuul:
          ## serviceId: kobe
 
 customizezuul:
-   excludedPaths: /login/**
+   excludedPaths: /kobe/login/**
