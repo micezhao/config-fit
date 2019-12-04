@@ -35,6 +35,6 @@ zuul:
          ## serviceId: kobe
 
 customizezuul:
-   customizeZuulRouter:
+   customizRoutes:
        kobe-url:
          excludedPaths: /login/**
