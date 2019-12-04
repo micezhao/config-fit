@@ -37,4 +37,4 @@ zuul:
 customizezuul:
    customizRoutes:
        kobe-url:
-         excludedPaths: /login/**
+       excludedPaths: /login/**
