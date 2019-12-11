@@ -27,7 +27,6 @@ spring:
          namespace: kobe # Namespace for keys used to store sessions.
          database: 5
 
-
 zuul:
    routes:
       kobe-url:
