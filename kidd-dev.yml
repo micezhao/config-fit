@@ -1,9 +1,9 @@
 appname: kidd
 
 server:
-  port: 8763
+   port: 8763
 
-spring:
+spring: 
    http:
       encoding:
          enabled: true
@@ -34,9 +34,9 @@ zuul:
          url: http://localhost:8764/ # 开发环境，指向本级服务
          ## serviceId: kobe
       routes:
-      kobe-url:
+      allan-url:
          path: /allan/**
          url: http://localhost:8765/ # 开发环境，指向本级服务
           ## serviceId: allan
 customizezuul:
-   excludedPaths: /login/**
+   excludedPaths: /kobe/login/**
