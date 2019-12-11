@@ -10,8 +10,6 @@ spring:
          charset: UTF-8
    application:
       name: kidd
-   profiles:
-      include: sessiondev
    rabbitmq:
       host: 118.190.53.214
       port: 5682
