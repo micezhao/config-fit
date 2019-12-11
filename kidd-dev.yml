@@ -33,7 +33,7 @@ zuul:
          path: /kobe/**
          url: http://localhost:8764/ # 开发环境，指向本级服务
          ## serviceId: kobe
-      routes:
+   routes:
       allan-url:
          path: /allan/**
          url: http://localhost:8765/ # 开发环境，指向本级服务
