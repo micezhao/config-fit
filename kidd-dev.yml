@@ -11,7 +11,7 @@ spring:
    application:
       name: kidd
    profiles:
-      include: application-dev.yml
+      include: sessiondev
    rabbitmq:
       host: 118.190.53.214
       port: 5682
