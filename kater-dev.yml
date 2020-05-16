@@ -9,7 +9,7 @@ spring:
       enabled: true
       charset: UTF-8
   application:
-    name: kobe
+    name: kater
   datasource:
     #driverClassName: com.mysql.jdbc.Driver
     driverClassName: com.mysql.cj.jdbc.Driver
