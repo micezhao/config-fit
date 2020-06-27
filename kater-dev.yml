@@ -60,7 +60,7 @@ mybatis-plus:
 credential:
    wechat:
       appId: wx492bfcf10245c5d1
-      appSecret: 6c3f65fd53c9cca8ae5f66fdc3690644
+      appSecret: 08ef3243ade590f72d5b63d0ae5391dc
       urlPattern: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
       errtag: errcode
 
