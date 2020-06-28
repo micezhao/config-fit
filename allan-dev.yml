@@ -52,4 +52,8 @@ redis:
 mybatis-plus:
    mapperLocations: classpath*:mybatis/*.xml
    typeAliasesPackage: com.f.a.allan.entity.pojo
-   
+
+storage:
+   file:
+      path: /Users/micezhao/Downloads
+      max_size: 16M
