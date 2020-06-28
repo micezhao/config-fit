@@ -12,24 +12,24 @@ spring:
     name: kater
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://118.190.53.214:3386/fa_kobe2?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://39.100.131.79:3306/fa_kobe2?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: 891122
+    password: jxh1988
   rabbitmq:
-    host: 118.190.53.214
-    port: 5682
+    host: 39.100.131.79
+    port: 5672
     virtual-host: /
   redis:
     database: 0
-    host: 118.190.53.214
-    port: 16379
-    password: 891122
+    host: 39.100.131.79
+    port: 6379
+    password: jxh1988
   mongo:
-    host: 118.190.53.214
-    port: 27817
+    host: 39.100.131.79
+    port: 27017
     dbName: fit-eat
-    username: zcmac
-    password: 891122
+    username: jxh
+    password: jxh1988
     url: ${spring.mongo.username}:${spring.mongo.password}@${spring.mongo.host}:${spring.mongo.port}/${spring.mongo.dbName}
   session:
     store-type: redis
@@ -60,7 +60,7 @@ mybatis-plus:
 credential:
    wechat:
       appId: wx492bfcf10245c5d1
-      appSecret: 6c3f65fd53c9cca8ae5f66fdc3690644
+      appSecret: 08ef3243ade590f72d5b63d0ae5391dc
       urlPattern: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
       errtag: errcode
 
