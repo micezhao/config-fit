@@ -24,18 +24,18 @@ spring:
       timeout: 3600 #seconds in used
       redis:
          flush-mode: on-save  # Sessions flush mode.
-         namespace: kobe # Namespace for keys used to store sessions.
-         database: 5
+         namespace: kater # Namespace for keys used to store sessions.
 
 zuul:
    routes:
       kobe-url:
          path: /kater/**
-         url: http://localhost:8764/ # 开发环境，指向本级服务
-         ## serviceId: kobe
+         ## url: http://localhost:8764/ # 开发环境，指向本级服务
+         serviceId: kater
       allan-url:
          path: /allan/**
-         url: http://localhost:8765/ # 开发环境，指向本级服务
-          ## serviceId: allan
+         ## url: http://localhost:8765/ # 开发环境，指向本级服务
+         serviceId: allan
+
 customizezuul:
    excludedPaths: /kater/login/**

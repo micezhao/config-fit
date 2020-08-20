@@ -37,7 +37,6 @@ spring:
     redis:
       flush-mode:  on-save # Sessions flush mode.
       namespace: kater # Namespace for keys used to store sessions.
-      database: 5
 
 redis:
   region:
