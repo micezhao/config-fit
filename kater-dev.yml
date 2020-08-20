@@ -57,3 +57,8 @@ mybatis-plus:
       logic-not-delete-value: 0
 
 
+storage:
+  file:
+    path: /Users/micezhao/uploadFile/resource/
+    max_size: 16M
+
