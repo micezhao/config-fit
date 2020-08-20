@@ -11,14 +11,14 @@ spring:
    application:
       name: kidd
    rabbitmq:
-      host: 118.190.53.214
-      port: 5682
+      host: 39.100.131.79
+      port: 5672
       virtual-host: /
    redis:
       database: 0
-      host: 118.190.53.214
-      port: 16379
-      password: 891122
+      host: 39.100.131.79
+      port: 6379
+      password: jxh1988
    session:
       store-type: redis
       timeout: 3600 #seconds in used
