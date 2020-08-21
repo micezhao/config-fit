@@ -59,6 +59,6 @@ mybatis-plus:
 
 storage:
   file:
-    path: /Users/micezhao/uploadFile/resource/
+    path: /Users/micezhao/uploadFile/resource
     max_size: 16M
 
