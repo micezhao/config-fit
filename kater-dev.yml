@@ -51,6 +51,8 @@ redis:
     shutdown-timeout: 400
 
 mybatis-plus:
+  mapper-locations:
+    classpath: mapper/*.xml
   global-config:
     db-config:
       logic-delete-value: 1
