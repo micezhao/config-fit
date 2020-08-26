@@ -50,7 +50,7 @@ redis:
       shutdown-timeout: 400
 
 mybatis-plus:
-   mapperLocations: classpath*:mybatis/*.xml
+   mapperLocations: classpath*:mapper/*.xml
    typeAliasesPackage: com.f.a.allan.entity.pojo
 
 storage:
